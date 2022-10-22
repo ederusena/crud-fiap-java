@@ -103,11 +103,12 @@ CREATE SEQUENCE SEQ_LOGIN_LOGIN_ID;
 CREATE TABLE TF_LOGIN (
                 LOGIN_ID NUMBER NOT NULL,
                 REGISTRO_DT DATE NOT NULL,
-                USUARIO_NM VARCHAR2(10) NOT NULL,
-                EMAIL_NM VARCHAR2(20) NOT NULL,
-                SENHA_NM VARCHAR2(8) NOT NULL,
+                USUARIO_NM VARCHAR2(30) NOT NULL,
+                EMAIL_NM VARCHAR2(50) NOT NULL,
+                SENHA_NM VARCHAR2(16) NOT NULL,
                 CONSTRAINT PK_LOGIN PRIMARY KEY (LOGIN_ID)
 );
+
 COMMENT ON TABLE TF_LOGIN IS 'Tabela para cadastro login.';
 COMMENT ON COLUMN TF_LOGIN.REGISTRO_DT IS 'Coluna para armazenar a data do registro do dado.';
 COMMENT ON COLUMN TF_LOGIN.USUARIO_NM IS 'Coluna para cadastrar o nome do usuario para acesso ao App.';
@@ -298,6 +299,7 @@ CREATE TABLE TF_ENDERECO (
                 CIDADE_NM VARCHAR2(20),
                 CONSTRAINT PK_ENDERECO PRIMARY KEY (ENDERECO_ID)
 );
+
 COMMENT ON TABLE TF_ENDERECO IS 'Tabela para armazenar o endereço do usuario.';
 COMMENT ON COLUMN TF_ENDERECO.ENDERECO_ID IS 'Coluna contendo o código identificador.';
 COMMENT ON COLUMN TF_ENDERECO.REGISTRO_DT IS 'Coluna para armazenar a data do registro do dado.';
