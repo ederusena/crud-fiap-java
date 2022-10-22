@@ -294,7 +294,7 @@ CREATE TABLE TF_ENDERECO (
                 LOGRADOURO_NM VARCHAR2(30),
                 LOGRADOURO_NU NUMBER(8),
                 COMPLEMENTO_DS VARCHAR2(50),
-                BAIRRO_NM VARCHAR2(20),
+                BAIRRO_NM VARCHAR2(30),
                 ESTADO_AC VARCHAR2(2),
                 CIDADE_NM VARCHAR2(20),
                 CONSTRAINT PK_ENDERECO PRIMARY KEY (ENDERECO_ID)
