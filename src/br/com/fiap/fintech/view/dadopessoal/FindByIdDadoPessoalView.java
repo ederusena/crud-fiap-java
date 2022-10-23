@@ -1,6 +1,4 @@
-package br.com.fiap.fintech.view;
-
-import java.util.List;
+package br.com.fiap.fintech.view.dadopessoal;
 
 import br.com.fiap.fintech.dao.DadoPessoalDao;
 import br.com.fiap.fintech.model.DadoPessoalModel;

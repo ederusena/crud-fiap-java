@@ -1,4 +1,4 @@
-package br.com.fiap.fintech.view;
+package br.com.fiap.fintech.view.dadopessoal;
 
 import java.sql.SQLException;
 import java.util.List;
