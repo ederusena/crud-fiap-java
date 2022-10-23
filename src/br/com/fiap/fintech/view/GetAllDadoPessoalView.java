@@ -6,7 +6,7 @@ import java.util.List;
 import br.com.fiap.fintech.dao.DadoPessoalDao;
 import br.com.fiap.fintech.model.DadoPessoalModel;
 
-public class DadoPessoalView {
+public class GetAllDadoPessoalView {
 
 	public static void main(String[] args) {
 
